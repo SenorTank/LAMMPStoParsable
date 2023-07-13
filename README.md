@@ -15,6 +15,6 @@ This is derived from the `fix` command in LAMMPS.
 
 The output can then be passed into this script and will output a figure, it will not be saved now but can be saved by added the `savefig()` method to your graph.
 
-## Upcoming chnages
+## Upcoming changes
 
-I will probably add a few this in future namely passing in command line arguments and maybe a little more clarity on the LAMMPS JSON output.
+Command line support has been given and documentation on it will be given in the near future.

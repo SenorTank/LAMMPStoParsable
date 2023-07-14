@@ -33,7 +33,7 @@ Once you have generated a JSON output you can start now parsing it. Start by ind
 
 The following is how to call the Python script:
 ```bash
-python3 lmptoJSON.py input.json [-optional flags]
+python3 main.py input.json [-optional flags]
 ```
 
 This may change from system to system, or how you named Python interpreter in your path. The optional flags are the following:

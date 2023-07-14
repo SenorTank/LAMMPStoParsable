@@ -28,7 +28,7 @@ def main():
     if (('-show' in sys.argv) or ('-s' in sys.argv)):
         plt.show()
     if (('-save' in sys.argv) or ('-f' in sys.argv)):
-        plt.savefig(filename + '.png')
+        plt.savefig(os.path.splittext(filename) + '.png')
 
 if __name__ == "__main__":
     main()
